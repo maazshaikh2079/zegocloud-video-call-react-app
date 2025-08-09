@@ -15,7 +15,7 @@ function randomID(len) {
     result += chars.charAt(Math.floor(Math.random() * maxPos));
   }
   return result;
-}git add README.md
+}
 
 export function getUrlParams(
   url = window.location.href
